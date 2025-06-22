@@ -1,7 +1,7 @@
-project_name: air-quality-lapaz
-description: "Air Quality Data Analysis in La Paz, Bolivia"
+project_name: geoserver-lapaz
+description: "ETL pipeline for geospatial data from GeoServer of GAMLP in La Paz, Bolivia"
 author: Andres Chirinos
-created_date: 2025-06-17
+created_date: 2025-06-22
 version: 1.0.0
 
 data_dir: "data"
@@ -15,9 +15,9 @@ github_actions:
       retention_days: 14
 
 drive:
-  folder_id: "1Ib6A-TqdurUPOLKsvs1mYuH4PMSLN4uk"
+  folder_id: "1o3tScx8z3WR64uYRG9Qbq_Gfj9IEnWHj"
 
 kaggle:
-  dataset_id: "andreschirinos/air-quality-lapaz"
+  dataset_id: "andreschirinos/geoserver-lapaz"
   is_public: true
 
