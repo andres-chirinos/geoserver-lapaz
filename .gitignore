@@ -160,4 +160,5 @@ cython_debug/
 #.idea/
 
 .secrets
-historic/01_extract.ipynb
+historic/*
+*json
